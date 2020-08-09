@@ -16,6 +16,7 @@ body {
 
 /* Header */
 .header {
+  min-height: 250px;
   max-height: 550px;
   padding: 0;
   overflow: hidden;
@@ -130,6 +131,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100px;
+}
+
+/* Footer */
+#footer{
+  padding: 50px;
+  color: white;
+  background-color: #364f6b;
 }
 
 @media (max-width: 991px) {
