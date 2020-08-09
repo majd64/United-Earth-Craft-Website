@@ -145,6 +145,11 @@ body {
   .feature-icon {
     display: none;
   }
+
+  /* Contact */
+  .contact-col-top{
+    margin-bottom: 50px;
+  }
 }
 
 /* Tablet */
