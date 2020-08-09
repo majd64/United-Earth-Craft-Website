@@ -1,0 +1,190 @@
+body {
+  background-color: #eeeeee;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+/* TOP */
+/* Navbar */
+.navbar {
+  background-color: #364f6b;
+}
+
+.nav-link, .navbar-brand {
+  margin-right: 15px;
+}
+
+/* Header */
+.header {
+  max-height: 550px;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+}
+
+.header .img {
+  width: 100%;
+  opacity: 0.33;
+}
+
+.header .title {
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header .title:hover {
+  color: #eeeeee;
+}
+
+.header .subtitle {
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 330px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Top Box */
+.top-box {
+  position: relative;
+  bottom: 100px;
+  z-index: 1;
+  padding: 60px 120px 60px 120px;
+  background-color: #eeeeee;
+  border-top: 20px solid #364f6b;
+}
+
+.top-box .heading {
+  margin-bottom: 30px;
+}
+
+/* Features */
+.feature-row {
+  margin-bottom: 100px;
+}
+
+.feature-img {
+  max-width: 100%;
+  border: 5px solid #364f6b;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+.feature-icon {
+  width: 75px;
+  margin-bottom: 2%;
+}
+
+.feature-heading {
+  padding-bottom: 10px;
+}
+
+.feature-txt {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #8f8f8f;
+}
+
+/* Contact */
+#contact {
+  padding: 100px;
+  color: white;
+  background-color: #364f6b;
+}
+
+.contact-icon {
+  width: 75px;
+}
+
+.contact-heading {
+  font-size: 1.5rem;
+  margin: 5px auto 15px;
+}
+
+.contact-link {
+  color: #3fc1c9;
+}
+
+.contact-link:hover {
+  color: #f5f5f5;
+}
+
+@media (max-width: 991px) {
+  /* Features */
+  .feature-icon {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media (max-width: 767px) {
+
+  /* Header */
+  .header .title {
+    transition: top 0.25s linear;
+    top: 200px;
+    font-size: 2.2rem;
+  }
+
+  .header .subtitle {
+    transition: top 0.25s linear;
+    top: 230px;
+    font-size: 1rem;
+  }
+
+  .header .title-push-down {
+    top: 320px;
+  }
+
+  .header .subtitle-push-down {
+    top: 350px;
+  }
+
+  /* Top Box */
+  .top-box {
+    padding: 60px 60px 60px 60px;
+  }
+
+  /* Features */
+  .feature-txt {
+    margin-bottom: 50px;
+  }
+
+  /* Contact */
+  .contact-col{
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  /* Header */
+  .header .title {
+    top: 150px;
+    font-size: 2rem;
+  }
+
+  .header .subtitle {
+    top: 180px;
+    font-size: 0.8rem;
+  }
+
+  .header .title-push-down {
+    top: 270px;
+  }
+
+  .header .subtitle-push-down {
+    top: 300px;
+  }
+
+  /* Top Box */
+  .top-box {
+    padding: 60px 40px 60px 40px;
+  }
+}
